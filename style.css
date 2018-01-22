@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    margin: 0 0 0 0;
+    background-color: #eeeeee;
+}
+
+h2 {font-weight: normal;}
+
+h1 {font-weight: 500;}
+
+a.link {color: #394147;}
+
+.toggler {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#content {
+    width: 85%;
+    clear: both;
+    margin-left: 7%;
+    font-family: 'Segoe UI', 'Lato', 'Open Sans', serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.forminput {
+    background-color: #e0e0e0;
+    border: none;
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+    padding-left: 5px;
+    font-family: 'Source Sans Pro';
+    box-shadow: 0 0 10px #809EAB;
+    color: #36414B; 
+}
+
+.cbtn {
+    display: block;
+    background: #dbdbdb; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #dbdbdb , #eeeeee); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dbdbdb, #eeeeee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dbdbdb, #eeeeee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dbdbdb , #eeeeee); /* Standard syntax (must be last) */
+    border: none;
+    padding: 4px 4px 4px 4px;
+    font-family: 'Source Sans Pro';
+    box-shadow: 0 0 5px #666666;
+    font-size: 16px;
+    font-weight: 500;
+    color: #36414B; 
+}
+
+span#header {
+    color: #DBDBDB;
+    display: inline;
+    padding-right: 25px;
+    vertical-align: center;
+    font-family: 'Open Sans';
+    font-size: 35px;
+}
+
+.shadowheader {
+    text-shadow: 2px 2px #aaaaaa;
+}
+
+#navbar {
+    list-style-type: none;
+    background-color: #1b1b1b;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar-link {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1b1b1b;
+    vertical-align: 5px;
+}
+
+a.navbar-link-obj {
+    color: #DBDBDB;
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    -webkit-transition: color 500ms ease 0s;
+    -moz-transition: color 500ms ease 0s;
+    transition: color 500ms ease 0s;
+}
+
+a.navbar-link-obj:visited {color: #DBDBDB;}
+
+a.navbar-link-obj:hover {color: #8BC29D;}
