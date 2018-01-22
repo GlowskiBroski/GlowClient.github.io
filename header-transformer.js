@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     var injection = "<span id=\'navbar\'>"+
     "<ul id=\'navbar-obj\'>"+
-    "<span id=\'header\'>"+link(sub,"index.html",<img src="logo.png" alt="Future Client Home" />)+"</span>"+
+    "<span id=\'header\'>"+link(sub,"index.html",<img src="img/logo.png" alt="Future Client Home" />)+"</span>"+
     "<li class=\'navbar-link\'>"+link(sub,"about.html","About")+"</li>"+
     "<li class=\'navbar-link\'>"+link(sub,"buy.html","Buy")+"</li>"+
     "<li class=\'navbar-link\'>"+link(sub,"user/signin.html","Sign In")+"</li>"+
