@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     var injection = "<span id=\'navbar\'>"+
     "<ul id=\'navbar-obj\'>"+
-    "<span id=\'header\'>"+link(sub,"index.html",<img src="img/logo.png" alt="GlowClient Home" />)+"</span>"+
+    "<span id=\'header\'>"+link(sub,"index.html","GlowClient")+"</span>"+
     "<li class=\'navbar-link\'>"+link(sub,"about.html","About")+"</li>"+
     "</ul>"+
     "</span>";
